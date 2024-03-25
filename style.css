@@ -1,0 +1,98 @@
+.navbar{
+    background-color: #fff;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99;
+}
+.app{
+  background:  #75BF7A;
+}
+.para{
+    font-size: 14px;
+}
+.circle{
+    background-color:#75BF7A ;
+    border-radius: 50%;
+    height:400px ;  
+}
+.images{
+    position: relative;
+}
+.imgnum{
+    position: relative;
+    margin-left: -45px;
+}
+.imgnum1{
+    position: relative;
+    margin-left: -50px;
+}
+span{
+    color: #75BF7A;
+}
+.numbers{
+    color: #75BF7A;
+     font-size: 70px;
+     font-weight: 600;
+}
+footer{
+    margin-top: 150px;
+}  
+.button{
+    cursor: pointer;
+    width: 200px ;
+}
+p >a{
+    color: #8B8BA5;
+    text-decoration: none;
+}
+.para1{
+    color: #8B8BA5;
+}
+.pa{
+color: #75BF7A;
+}
+@media only screen and (min-width: 1200px) {
+    .container{
+        position: relative;
+    }
+    .container{
+        position: relative;
+    }
+    .imgmob{
+        position: absolute;
+        background: url(images/mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 220px;
+        height: 450px;
+        left: 200px;
+        
+    }
+}
+@media only screen and (max-width: 500px) {
+    .circle{
+        background-color:#75BF7A ;
+        border-radius: 50%;
+        height:300px ;
+        position: relative;
+
+      }
+      .img{
+        background: url(images/mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 220px;
+        height: 450px;
+        margin: auto;
+        position: absolute;
+        top: -90px; 
+        left: 70px;
+    } 
+    .pa{
+        color: #9E9DA2;
+    }
+    footer{
+        margin-top: 20px;
+    } 
+    }
